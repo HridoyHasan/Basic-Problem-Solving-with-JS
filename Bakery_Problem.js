@@ -8,15 +8,16 @@
 
 // Bonus:
 // Add another condition to give an even bigger discount if the customer is over 65 AND buys more than 3 pastries (use the logical AND operator && for this).
-let discount;
-let age = prompt("Enter Age = ");
-let pastry = prompt("Enter Number of Pastry = ");
+// let discount;
+// let age = prompt("Enter Age = ");
+// let pastry = prompt("Enter Number of Pastry = ");
 
-if (age > 65 && pastry > 3) {
-  discount = "Bonus Discount applied!";
-} else if (age > 65 || pastry > 3) { 
-  discount = "Discount applied!";
-} else {
-  discount = "No discount this time";
-}
-console.log("discount =", discount);
+// if (age > 65 && pastry > 3) {
+//   discount = "Bonus Discount applied!";
+// } else if (age > 65 || pastry > 3) { 
+//   discount = "Discount applied!";
+// } else {
+//   discount = "No discount this time";
+// }
+// console.log("discount =", discount);
+

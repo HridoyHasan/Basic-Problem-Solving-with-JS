@@ -12,12 +12,15 @@
 // let age = prompt("Enter Age = ");
 // let pastry = prompt("Enter Number of Pastry = ");
 
-// if (age > 65 && pastry > 3) {
-//   discount = "Bonus Discount applied!";
-// } else if (age > 65 || pastry > 3) { 
-//   discount = "Discount applied!";
-// } else {
-//   discount = "No discount this time";
-// }
-// console.log("discount =", discount);
+let discount;
+let age = prompt("Enter Age = ");
+let pastry = prompt("Enter Number of Pastry = ");
 
+if (age > 65 && pastry > 3) {
+  discount = "Bonus Discount applied!";
+} else if (age > 65 || pastry > 3) { 
+  discount = "Discount applied!";
+} else {
+  discount = "No discount this time";
+}
+console.log("discount =", discount);

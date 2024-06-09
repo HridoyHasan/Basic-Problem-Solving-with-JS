@@ -1,4 +1,4 @@
-// Take some random numeric input and find their sum and average.
+// Take some random numeric inputs and find their sum and average.
 
 let n = prompt("");
 let values = n.split("");
